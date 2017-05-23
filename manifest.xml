@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="0.0.1" uuid="pepper-qrpreview-example">
+ <names>
+  <name lang="en_US">Pepper QR Preview Example</name>
+ </names>
+ <supportedLanguages>
+  <language>ja_JP</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>ja_JP</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="interactive">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement minVersion="2.4"/>
+  <robotRequirement model="JULIETTE_Y20"/>
+ </requirements>
+</package>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale = 1, minimum-scale = 1, maximum-scale = 1" />
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="/libs/qimessaging/2/qimessaging.js"></script>
+    <script src="scripts/jquery-2.2.2.min.js"></script>
+    <script src="scripts/adjust23.js"></script>
+    <script src="scripts/main.js"></script>
+      </head>
+  <body onLoad="startSession();">
+    <div class="container">
+        <div id="camera" class="panel inactive">
+            <div class="canvas-container">
+                <div class="canvas-background">
+                    <canvas id="canvas" width="80" height="60"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="abort-container inactive" id="common">
+        <div class="abort-button" id="abort">中断</div>
+    </div>
+  </body>
+</html>

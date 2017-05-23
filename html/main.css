@@ -1,0 +1,105 @@
+html {
+    height:100%;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-position: center center; 
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+}
+
+.panel {
+    display: table;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.inactive {
+    display: none;
+}
+
+.button-container {
+    display: table-cell;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    vertical-align:middle;
+    padding: 30px;
+}
+    
+#canvas {
+    position: relative;
+    display: inline-block;
+    width: 640px;
+    height: 480px;
+    margin: 10px 10px;
+    padding: 0;
+}
+
+.canvas-container {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align:middle;
+}
+
+.canvas-background {
+    position: static;
+    display: inline-block;
+    width: 660px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    background-color: #555555;
+}
+
+.button {
+    border-radius: 25px;
+    font-size: 100px;
+    color: white;
+}
+
+.button_sub {
+    font-size: 46px;
+}
+
+.abort-container {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    bottom: 0;
+    text-align: center;
+}
+
+.abort-button {
+    border-radius: 15px;
+    font-size: 50px;
+    color: DimGray;
+    margin: 20px;
+}
+
+.image-container {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align:middle;
+}
+
+#abort {
+    background: LightGray;
+}
+
+#abort.pressed {
+    background: Orange;
+}
